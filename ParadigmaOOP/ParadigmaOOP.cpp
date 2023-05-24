@@ -30,6 +30,8 @@ public:
 	~pelajar() {
 		cout << "pelajar dohapus\n" << endl;
 	}
-
+	string perkenalan() {
+		return "Hallo,nama saya" + nama + "dari sekolah" + sekolah + "\n\n";
+	}
 };
 
